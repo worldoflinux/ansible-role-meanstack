@@ -1,0 +1,21 @@
+---
+# defaults file for ansible-role-meanstack
+# Nodejs version to install ("0.10","0.12","4.x","5.x","6.x")
+nodejs_version: "6.x"
+
+nodejs_install_npm_user: "catalinpopescu"
+
+#Global installations directory
+npm_config_prefix: "/usr/local/lib/npm"
+
+npm_config_unsafe_perm: "false"
+
+#Global packages installations to be installed with npm
+nodejs_npm_global_packages: []
+    - name: jslint
+      version: 0.9.3
+    - name: express
+      version: 4.14.0
+    - name: angular
+      version: 1.6.0
+          

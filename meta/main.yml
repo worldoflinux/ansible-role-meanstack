@@ -119,7 +119,7 @@ galaxy_info:
   #  - all
   #  - Any
 
-  galaxy_tags: []
+  galaxy_tags:
     - development
     - web
 
